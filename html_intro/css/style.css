@@ -1,0 +1,36 @@
+
+
+ body {
+    background-image: url('https://img1.picmix.com/output/stamp/normal/3/6/8/4/384863_51c62.gif');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: rgb(115, 22, 22);
+ }
+h1 {
+    text-shadow: 0 0 3px #000000, 0 0 5px #000000;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2em;
+    text-align: center;
+}
+h2 {
+    text-shadow: 0 0 3px #000000, 0 0 5px #000000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3em;
+    text-align: center;
+}
+p {
+    text-shadow: 0 0 3px #000000, 0 0 5px #000000;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1,7em;
+    text-align: center;
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 330px;
+    height: 300px;
+    border-radius: 50%;
+    box-shadow: 0 0 10px #000000, 0 0 20px #000000;
+  }

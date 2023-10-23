@@ -1,0 +1,39 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+
+  .container2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    border: solid black 2px; 
+    height: 520px;
+  }
+  
+  .toppen {
+      display: flex;
+      justify-content: center;
+      border: solid black 2px;
+  }
+  
+  .bunnen { 
+      display: flex;
+      justify-content: center;
+      position: absolute;
+      bottom: 0px;
+      width: 100%;
+      border: solid black 2px;
+  }
+
+  p {
+    border: solid black 2px;
+    width: 500px;
+    height: 400px;
+  }
+
+  img {
+    border: solid black 2px;
+  }

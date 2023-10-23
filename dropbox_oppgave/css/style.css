@@ -1,0 +1,111 @@
+body {
+    background-color: black;
+}
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: white;
+    font-size: 50px;
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: rgb(86, 86, 86);
+    font-size: 15px;
+}
+
+h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+h4 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: rgb(204, 204, 204);
+}
+
+.container1 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 2000px;
+}
+
+
+.overskrift {
+    justify-content: space;
+    align-items: center;
+    flex-direction: column;
+    width: 45%;
+    height: 300px;
+}
+
+.pil {
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    color: rgb(0, 0, 0);
+    width: 15%;
+    background-color: rgb(0, 89, 255);
+}
+
+.box1 {
+    justify-content: space-around;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 500px;
+    width: 100%;
+}
+
+.øverst {
+    display: flex;
+    height: 38px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.venstre {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 35%;
+}
+
+.høyre {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 40%;
+}
+
+.pil2 {
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    color: rgb(0, 0, 0);
+    width: 175px;
+    height: 37px;
+    background-color: rgb(0, 89, 255);
+}
+
+.box3 {
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+}

@@ -1,0 +1,55 @@
+
+body {
+    background-color: rgb(236, 203, 239);
+}
+
+img {
+    border: solid purple 5px;
+    width: 50%;
+}
+
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 4em;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border: solid black 2px;
+    height: 670px;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    border: solid rgb(0, 0, 0) 2px;
+    padding: 20px;
+    background: rgb(255, 0, 115);
+    width: 20%;
+    height: 400px;
+}
+
+.box2 {
+    display: flex;
+    justify-content: center;
+    border: solid black 2px;
+    padding: 20px;
+    background: white;
+    width: 100%;
+    height: 400px;
+}
+
+.box3 {
+    display: flex;
+    justify-content: center;
+    border: solid black 2px;
+    padding: 20px;
+    background: rgb(191, 0, 255);
+    width: 20%;
+    height: 400px;
+}
+
+

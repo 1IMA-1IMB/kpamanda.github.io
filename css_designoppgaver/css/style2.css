@@ -1,0 +1,28 @@
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    width: 15%;
+    border: solid black 2px;
+    height: 700px;
+}
+
+.box2 {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    border: solid black 2px;
+    height: 90px;
+}
+
+.box3 {
+    display: flex;
+    justify-content: center;
+    width: 15%;
+    border: solid black 2px;
+    height: 700px;
+}

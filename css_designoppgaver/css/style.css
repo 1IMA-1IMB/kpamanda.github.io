@@ -1,0 +1,17 @@
+.container {
+  border: 0cap;
+}
+
+.toppen {
+    display: flex;
+    justify-content: center;
+    border: solid black 2px;
+}
+.bunnen { 
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    border: solid black 2px;
+}
