@@ -1,0 +1,24 @@
+body {
+    background-color: bisque;
+}
+
+.main.container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.header {
+    height: 60%;
+    background-color: blueviolet;
+}
+
+.middel {
+    height: 60%;
+    background-color: rgb(43, 61, 226);
+}
+
+.footer {
+    height: 60%;
+    background-color: rgb(226, 43, 174);
+}
