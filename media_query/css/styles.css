@@ -1,24 +1,40 @@
 body {
-    background-color: bisque;
+    background: lightcyan;
 }
 
-.main.container {
+.main-container {
     display: flex;
+    justify-content: center;
     flex-direction: column;
     height: 100vh;
 }
 
 .header {
-    height: 60%;
-    background-color: blueviolet;
+    background: rgb(242, 177, 227);
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.middel {
+.middle {
     height: 60%;
-    background-color: rgb(43, 61, 226);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(253, 251, 236);
 }
 
 .footer {
-    height: 60%;
-    background-color: rgb(226, 43, 174);
+    height: 20%;
+    background: rgb(215, 239, 173);
 }
+
+@media only screen and (max-width: 600px) {
+    .middle {
+      background-color: bisque;
+    }
+    img {
+        width: 100%;
+    }
+  }
