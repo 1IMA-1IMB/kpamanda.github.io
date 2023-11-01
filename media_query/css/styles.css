@@ -2,6 +2,10 @@ body {
     background: rgb(255, 252, 224);
 }
 
+img {
+    padding: 10px;
+}
+
 .main-container {
     display: flex;
     justify-content: center;
@@ -10,9 +14,9 @@ body {
 }
 .middle-container {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
-    flex-direction: column;
+    flex-direction: row;
     height: 100vh;
     background-color: rgb(253, 251, 236);
 }
@@ -20,6 +24,7 @@ body {
 .header {
     background: rgb(242, 177, 227);
     height: 20%;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -27,35 +32,35 @@ body {
 
 .middle {
     height: 60%;
+    width: 100%;
     display: flex;
     justify-content: center;
+    flex-direction: row;
     align-items: center;
-    border: solid rgb(238, 230, 205) 2px;
-    
 }
-
-.middle2 {
-    height: 60%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: solid rgb(238, 230, 205) 2px;
-    height: 150px;
-    width: 85%;
-    background-color: rgb(255, 255, 255);
-}
-
 
 .footer {
     height: 20%;
+    width: 100%;
     background: rgb(215, 239, 173);
 }
 
 @media only screen and (max-width: 600px) {
+
     .middle {
-      background-color: bisque;
+        padding: 1em;
+        flex-wrap: wrap;
     }
-    img {
-        width: 100%;
+
+    .middle img {
+        height: 70%;
+        width: 70%;
+        padding: 1em;
     }
+
+    .header h1 {
+        font-size: x-small;
+    }
+
+
   }
