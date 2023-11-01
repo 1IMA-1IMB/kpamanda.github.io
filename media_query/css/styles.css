@@ -1,5 +1,5 @@
 body {
-    background: lightcyan;
+    background: rgb(255, 252, 224);
 }
 
 .main-container {
@@ -7,6 +7,14 @@ body {
     justify-content: center;
     flex-direction: column;
     height: 100vh;
+}
+.middle-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    background-color: rgb(253, 251, 236);
 }
 
 .header {
@@ -22,8 +30,21 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(253, 251, 236);
+    border: solid rgb(238, 230, 205) 2px;
+    
 }
+
+.middle2 {
+    height: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid rgb(238, 230, 205) 2px;
+    height: 150px;
+    width: 85%;
+    background-color: rgb(255, 255, 255);
+}
+
 
 .footer {
     height: 20%;
