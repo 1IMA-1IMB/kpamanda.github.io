@@ -49,13 +49,13 @@ p {
 }
 
 #img {
-    height: 210px;
-    width: 260px;
+    height: 50%;
+    width: 60%;
 }
 
 #img {
-    height: 450px;
-     width: 1000px;
+    height: 30%;
+     width: 100%;
 }
 
 .main-container {
