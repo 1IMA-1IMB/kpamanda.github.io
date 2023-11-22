@@ -53,3 +53,50 @@ img {
     border: solid black 2px;
 }
 
+.fem {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 10%;
+    border: solid black 2px;
+}
+
+.seks {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 10%;
+    border: solid black 2px;
+}
+
+.syv {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 10%;
+    border: solid black 2px;
+}
+
+.otte {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 10%;
+    border: solid black 2px;
+}
+
+.ni {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 10%;
+    border: solid black 2px;
+}
+
+.ti {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 10%;
+    border: solid black 2px;
+}
