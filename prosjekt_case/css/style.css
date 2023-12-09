@@ -3,7 +3,7 @@ body {
 }
 
 .main-container {
-    height: 1000px;
+    height: 1500px;
 }
 
 .container h1 {
@@ -11,7 +11,7 @@ body {
 }
 
 .header h1 {
-    text-shadow:black 1px 1px;
+    text-shadow:rgb(112, 25, 25) 1px 1px;
 }
 
 .header {
@@ -27,15 +27,89 @@ img {
     width: 100%;
 }
 
+p {
+    padding: 5px;
+}
+
 .container {
     position: relative;
     text-align: center;
     color: white;
-  }
+}
 
-  .bottom-right {
+.bottom-right {
     position: absolute;
-    bottom: 8px;
+    bottom: 1px;
     right: 16px;
-  }
+}
 
+.bottom-left {
+    position: absolute;
+    bottom: 1px;
+    left: 16px;
+}
+
+.heroimage {
+    width: 100%;
+    height: 50%;
+}
+
+.stat-container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    border: solid rgb(0, 0, 0) 2px;
+
+}
+
+.info {
+    width: 100%;
+    height: 30%;
+    border: solid black 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.stats {
+    width: 65%;
+    height: 100%;
+    border: solid black 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.stat1 {
+    width: 70%;
+    height: 100%;
+    border: solid black 2px;
+    background-color: antiquewhite;
+}
+
+
+.stat2 {
+    width: 30%;
+    height: 100%;
+    border: solid black 2px;
+    background-color: rgb(237, 250, 215);
+}
+
+.stat3 {
+    width: 100%;
+    height: 100%;
+    border: solid black 2px;
+    background-color: rgb(215, 250, 234);
+}
+
+.tekst {
+    width: 35%;
+    height: 100%;
+    border: solid black 2px;
+    background-color: rgb(223, 215, 250);
+}
