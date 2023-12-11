@@ -1,5 +1,6 @@
 body {
     width: 100%;
+    background-color: black;
 }
 
 .main-container {
@@ -10,25 +11,24 @@ body {
     text-shadow:black 2px 2px;
 }
 
-.header h1 {
-    text-shadow:rgb(112, 25, 25) 1px 1px;
-}
-
-.header {
-    width: 100%;
-    height: 50px;
-    border: solid black 2px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 img {
     width: 100%;
 }
 
 p {
     padding: 5px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+a {
+    text-decoration: none;
+    color: white;
 }
 
 .container {
@@ -37,16 +37,28 @@ p {
     color: white;
 }
 
-.bottom-right {
+.top-left h1 {
+    font-size: 50px;
+    text-shadow:rgb(75, 23, 23) 2px 2px;
+}
+
+.top-right {
     position: absolute;
-    bottom: 1px;
-    right: 16px;
+    top: 1px;
+    right: 20px;
+}
+
+.top-left {
+    position: absolute;
+    top: -30px;
+    left: 10px;
 }
 
 .bottom-left {
     position: absolute;
-    bottom: 1px;
-    left: 16px;
+    bottom: -10px;
+    left: 6px;
+    text-shadow:black 2px 2px;
 }
 
 .heroimage {
@@ -61,14 +73,14 @@ p {
     justify-content: center;
     align-items: center;
     flex-direction: row;
-    border: solid rgb(0, 0, 0) 2px;
+    border: solid rgb(255, 255, 255) 2px;
 
 }
 
 .info {
     width: 100%;
     height: 30%;
-    border: solid black 2px;
+    border: solid rgb(255, 255, 255) 2px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -78,7 +90,7 @@ p {
 .stats {
     width: 65%;
     height: 100%;
-    border: solid black 2px;
+    border: solid rgb(255, 255, 255) 2px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -88,28 +100,33 @@ p {
 .stat1 {
     width: 70%;
     height: 100%;
-    border: solid black 2px;
-    background-color: antiquewhite;
+    border: solid rgb(255, 255, 255) 2px;
+    background-color: rgb(69, 61, 52);
 }
 
 
 .stat2 {
     width: 30%;
     height: 100%;
-    border: solid black 2px;
-    background-color: rgb(237, 250, 215);
+    border: solid rgb(255, 255, 255) 2px;
+    background-color: rgb(62, 68, 50);
+}
+
+.stat2 img {
+    width: 100%;
+    height: 100%;
 }
 
 .stat3 {
     width: 100%;
     height: 100%;
-    border: solid black 2px;
-    background-color: rgb(215, 250, 234);
+    border: solid rgb(255, 255, 255) 2px;
+    background-color: rgb(55, 71, 64);
 }
 
 .tekst {
     width: 35%;
     height: 100%;
-    border: solid black 2px;
-    background-color: rgb(223, 215, 250);
+    border: solid rgb(255, 255, 255) 2px;
+    background-color: rgb(66, 61, 85);
 }
