@@ -8,7 +8,7 @@ body {
 }
 
 .container {
-    background-color: black;
+    border: solid rgb(188, 145, 96);
 }
 
 
@@ -40,6 +40,7 @@ h3 {
 color: rgb(188, 145, 96);
 }
 
+
 a {
     text-decoration: none;
     color: white;
@@ -61,7 +62,8 @@ a {
 
 .header h1 {
     font-size: 40px;
-    text-shadow:rgb(121, 18, 18) 2px 2px;
+    color: rgb(188, 145, 96);
+    text-shadow:rgb(121, 18, 18) 1px 1px;
     padding: 20px;
 }
 
