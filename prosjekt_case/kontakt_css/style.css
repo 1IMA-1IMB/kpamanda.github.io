@@ -5,10 +5,12 @@ body {
 
 .main-container {
     height: 2000px;
+    width: 100%;
 }
 
 .container {
     border: solid rgb(188, 145, 96);
+    width: 100%;
 }
 
 
@@ -193,5 +195,29 @@ frame {
         font-size: 10px;
     }
 
+    .main-container {
+        width: 100%;
+    }
+
+    .container {
+        width: 100%;
+    }
+
+    .container2 {
+        width: 350px;
+    }
+
+    .kategori {
+        float: left;
+        width: 50px;
+        margin-top: 6px;
+    }
+      
+    .skrive {
+        float: left;
+        width: 100px;
+        margin-top: 6px;
+    }
+    
 
 }

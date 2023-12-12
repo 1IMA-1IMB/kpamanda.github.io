@@ -125,6 +125,14 @@ frame {
     align-items: center;
 }
 
+.yt1 {
+    display: flex;
+    width: 75%;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
 .navn {
     display: flex;
     flex-direction: column;
@@ -156,6 +164,20 @@ frame {
 
     .bottom-left {
         font-size: 6px;
+    }
+
+    .yt {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .yt1 {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .youtube {
+        height: 1500px;
     }
 
 

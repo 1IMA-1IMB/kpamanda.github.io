@@ -49,6 +49,12 @@ h1 {
     font-weight: lighter;
 }
 
+h2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: lighter;
+}
+
 h3 {
     font-weight: lighter;
     text-shadow:rgb(122, 71, 9) 1px 1px;
@@ -94,10 +100,6 @@ a {
     padding: 30px;
 }
 
-frame {
-    padding: 10px;
-}
-
 .bottom-left {
     position: absolute;
     bottom: -10px;
@@ -121,19 +123,46 @@ frame {
     color: rgb(188, 145, 96);
 }
 
-.spotify {
-    width: 100%;
-    height: 370px;
+frame {
+    padding: 20px;
+}
+
+.sang-container {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 3000px;
+    border: solid rgb(188, 145, 96);
+}
+
+.sanger {
+    display: flex;
+    width: 80%;
+    height: 350px;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+
 }
 
-.spotify1 {
-    width: 49%;
-    height: 352px;
+.sang {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
+
+.navn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
 
 @media only screen and (max-width: 800px) {
 
@@ -155,19 +184,6 @@ frame {
 
     .middle {
         font-size: 10px;
-    }
-
-    .spotify {
-        display: flex;
-        flex-direction: column;
-        justify-content: first baseline;
-        width: 100%;
-        height: 730px;
-    }
-
-    .spotify1 {
-        width: 100%;
-        height: 100px;
     }
 
 
