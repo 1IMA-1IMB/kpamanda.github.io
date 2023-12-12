@@ -25,6 +25,24 @@ p {
     font-family: 'Times New Roman', Times, serif;
 }
 
+.container2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.laufey {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    width: 60%;
+}
+
+.laufey p {
+    font-size: larger;
+}
+
 h1 {
     font-family: 'Times New Roman', Times, serif;
     font-style: italic;
