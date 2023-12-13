@@ -186,16 +186,22 @@ frame {
         font-size: 10px;
     }
 
+    .sang-container {
+        height: 4500px;
+    }
+
+    /**/
+
+    frame {
+        width: 100%;
+    }
+
     .sanger {
         display: flex;
         flex-direction: column;
-        justify-content: space-around;
-        align-items: center;
+        justify-content: first baseline;
+        width: 100%;
+        height: 730px;
     }
-
-    frame {
-        width: 80%;
-    }
-
 
 }
