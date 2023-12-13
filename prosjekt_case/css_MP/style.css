@@ -1,30 +1,36 @@
+/*hele siden, gjorde om bakgrunnsfargen*/
 body {
     width: 100%;
     background-color: rgb(239, 219, 195);
 }
 
+/*hele containeren sin høyde*/
 .main-container {
-    height: 2000px;
+    height: 1800px;
 }
 
+/*container er containeren rundt header, hero image, middle*/
 .container {
     border: solid rgb(188, 145, 96);
 }
 
-
+/*skykke på teksten i containeren*/
 .container h1 {
     text-shadow:black 2px 2px;
 }
 
+/*hero image bredden*/
 img {
     width: 100%;
 }
 
+/*paragraoh under hero image, blide credits + endring info*/
 p {
     padding: 5px;
     font-family: 'Times New Roman', Times, serif;
 }
 
+/*container med spotify lenkene + tekst om artist*/
 .container2 {
     display: flex;
     justify-content: center;
@@ -32,6 +38,7 @@ p {
     flex-direction: column;
 }
 
+/*container til tekst om artist + pil ikoner*/
 .laufey {
     display: flex;
     flex-direction: row;
@@ -42,6 +49,7 @@ p {
     background-color: solid rgb(188, 145, 96);
 }
 
+/*1 av pil ikonene i laufey diven*/
 .l1 {
     width: 10%;
     display: flex;
@@ -51,6 +59,7 @@ p {
 
 }
 
+/*den andre pil ikonet i laufey diven*/
 .l2 {
     width: 79%;
     display: flex;
@@ -59,26 +68,27 @@ p {
     align-items: center; 
 }
 
+/*tekst størrelse til paragrafet i laufey diven*/
 .laufey p {
     font-size: larger;
 }
 
+/*css til all h1 tekst*/
 h1 {
     font-family: 'Times New Roman', Times, serif;
     font-style: italic;
     font-weight: lighter;
 }
 
+/*css til all h3 tekst*/
 h3 {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: lighter;
     text-shadow:rgb(122, 71, 9) 1px 1px;
+    color: rgb(188, 145, 96);
 }
 
-h3 {
-color: rgb(188, 145, 96);
-}
-
-
+/*css til alle a tagger*/
 a {
     text-decoration: none;
     color: white;
@@ -90,6 +100,7 @@ a {
     color: white;
 }
 
+/*header css*/
 .header {
     width: 100%;
     height: 60px;
@@ -98,6 +109,7 @@ a {
     align-items: center;
 }
 
+/*tekst i header css*/
 .header h1 {
     font-size: 40px;
     color: rgb(188, 145, 96);
@@ -105,6 +117,7 @@ a {
     padding: 20px;
 }
 
+/*de sosiale mediene i header og fotter*/
 .socmed {
     width: 50%;
     display: flex;
@@ -114,10 +127,12 @@ a {
     padding: 30px;
 }
 
+/*css til frame taggene*/
 frame {
     padding: 10px;
 }
 
+/*bilde teksten*/
 .bottom-left {
     position: absolute;
     bottom: -10px;
@@ -125,12 +140,13 @@ frame {
     text-shadow:black 2px 2px;
 }
 
-
+  /*css til heroimage*/
 .heroimage {
     width: 100%;
     height: 50%;
 }
 
+/*lenkene under hero image*/
 .middle {
     width: 100%;
     height: 35px;
@@ -141,6 +157,7 @@ frame {
     color: rgb(188, 145, 96);
 }
 
+  /*container til spotify1 divene*/
 .spotify {
     width: 100%;
     height: 370px;
@@ -150,9 +167,26 @@ frame {
     align-items: center;
 }
 
+  /*css til spotify lenkene*/
 .spotify1 {
     width: 49%;
     height: 352px;
+}
+
+  /*css til footer*/
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: first baseline;
+    border: solid black;
+    background-color: black;
+    height: 300px;
+    width: 100%;
+}
+
+.footer h3 {
+    color: white;
 }
 
 @media only screen and (max-width: 800px) {
