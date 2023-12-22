@@ -201,6 +201,13 @@ frame {
     .yt {
         display: flex;
         flex-direction: column;
+        width: 100%
+    }
+
+
+    frame {
+        width: 90%;
+        height: 20%;
     }
 
     .yt1 {
@@ -210,6 +217,16 @@ frame {
 
     .youtube {
         height: 1500px;
+    }
+    
+    .footer {
+    width: 100%;
+    }
+
+    .socmed {
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
     }
 
 

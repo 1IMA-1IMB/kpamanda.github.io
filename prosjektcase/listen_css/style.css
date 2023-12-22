@@ -216,4 +216,10 @@ frame {
         height: 730px;
     }
 
+    .socmed {
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+    }
+
 }
