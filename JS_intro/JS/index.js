@@ -12,10 +12,10 @@ console.log(z);
 // kommandoen for å lage en variabel heter "let". det er en lignende kommando som heter "var" og de er veldig like, men vi skal bruke "let".
 
 
-//c)
+// c)
 let erenelev = true;
 
-//d)
+// d)
 if( !erenelev ) {
 
     console.log( "du er en elev!" );
@@ -32,7 +32,7 @@ if( !erenelev ) {
 let svar = 2 + 2;
 console.log(svar);
 
-//b)
+// b)
 let svar1 = 11 * 1;
 let svar2 = 11 * 2;
 let svar3 = 11 * 3;
@@ -46,10 +46,11 @@ let svar10 = 11 * 10;
 let svar11 = 11 * 11;
 console.log(svar1, svar2, svar3, svar4, svar5, svar6, svar7, svar8, svar9, svar10, svar11);
 
-//c)
+// c)
 
 function test(number1, number2) {
-    console.log(number1, number2)
+    console.log(number1 * number2)
 }
 
 test(3, 7);
+
