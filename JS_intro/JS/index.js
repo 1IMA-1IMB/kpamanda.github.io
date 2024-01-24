@@ -48,9 +48,112 @@ console.log(svar1, svar2, svar3, svar4, svar5, svar6, svar7, svar8, svar9, svar1
 
 // c)
 
+//parameter er en verdi som en funksjon tar imot.
+//"number1" og "number2" er navnet til verdiene 3 og 7. 
+
 function test(number1, number2) {
     console.log(number1 * number2)
 }
 
 test(3, 7);
+
+
+//dette er en funksjon. minFunksjon er navnet på funksjonen.
+function minFunksjon() {
+
+    console.log("hva som helst!");
+}
+
+//denne kaller på funksjonen og sier at den er her + skal vises. 
+//skriv bare hva funksjonen heter + (); og så er du ferdig!
+minFunksjon();
+
+//tar imot parameteret, binder de opp til classen
+
+// ! gjør det sant
+let utsagn = false;
+
+function ifSetning(){
+    if(5 < 2) {
+
+        //gjør masse greier her
+        console.log("fiksa funksjon");
+
+    } else {
+        //gjør andre ting her hvis forige if ikke stemmer
+        console.log(5 + 2);
+    }
+}
+
+ifSetning();
+
+
+
+let setning = false;
+
+let tall1 = 7;
+let tall2 = 4;
+
+function ifSetninger(){
+    
+    if ( tall1 < tall2){
+
+            console.log("første if er sann");
+
+        } else if (tall1 === tall2) { 
+            
+            console.log("else if er stemte");
+
+        } else {
+
+            console.log("else en funket");
+            
+        }
+    }
+
+
+ifSetninger();
+
+// del 3
+
+
+
+
+// F til C oppgave
+
+function fahrenheitTilCelcius() {
+    let fahrenheit = 80; //variabel
+
+    let hjelp = (fahrenheit - 32) * 5 / 9; 
+
+    console.log(hjelp);
+
+}
+
+fahrenheitTilCelcius();
+
+function celciusTilFahrenheit() {
+    let celcius = 20;
+
+    let cf = (celcius * 1.8) + 32;
+
+    console.log(cf);
+
+}
+
+celciusTilFahrenheit();
+
+
+function moro() {
+
+    console.log("haha moro");
+
+}
+
+
+///////////////////////////////////////
+
+
+let sauer = 100;
+
 
