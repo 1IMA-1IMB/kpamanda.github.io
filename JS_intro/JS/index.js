@@ -163,9 +163,9 @@ let sauer = 100;
 
 function tellEnSau() {
 
-    let sau = sauer - 1;
+    sauer -= 1;
 
-    console.log("du har " + sau + " sauer igjen å telle før du sovner.");
+    console.log("du har " + sauer + " sauer igjen å telle før du sovner."); 
     
 }
 
@@ -173,11 +173,11 @@ tellEnSau();
 
 // b)
 
-function tellNoenSauer(sau1) {
+function tellNoenSauer(antall) {
 
-    let sau = sauer - sau1;
+    sauer = sauer - antall;
 
-    console.log("du har " + sau + " sauer igjen å telle før du sovner.");
+    console.log("du har " + sauer + " sauer igjen å telle før du sovner.");
     
 }
 
@@ -244,6 +244,23 @@ function klippSauer(antallSauer) {
 
 klippSauer(75);
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // oppgave fra tavla
 
 let bool = true;
@@ -261,6 +278,8 @@ if(bool && !bool2) {
 
 }
 
+
+
 if(bool || !bool2) {
 
     console.log("riktig");
@@ -270,3 +289,6 @@ if(bool || !bool2) {
     console.log("gjør noe annet");
 
 }
+
+
+
