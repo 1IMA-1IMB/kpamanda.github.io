@@ -150,7 +150,10 @@ function moro() {
 }
 
 
+
+
 ///////////////////////////////////////
+
 
 
 
@@ -240,3 +243,30 @@ function klippSauer(antallSauer) {
 } 
 
 klippSauer(75);
+
+// oppgave fra tavla
+
+let bool = true;
+let bool2 = false;
+
+ let tall = 5;
+
+if(bool && !bool2) {
+
+    console.log("riktig");
+
+} else {
+
+    console.log("gjør noe annet");
+
+}
+
+if(bool || !bool2) {
+
+    console.log("riktig");
+
+} else {
+
+    console.log("gjør noe annet");
+
+}
