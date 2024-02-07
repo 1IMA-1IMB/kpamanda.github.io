@@ -1,0 +1,14 @@
+body {
+    background-color: light rgb(239, 194, 247);
+}
+
+.oppgave1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border: solid black 2px;
+    height: 400px;
+    width: 75%;
+
+}
