@@ -1,5 +1,13 @@
 body {
-    background-color: light rgb(239, 194, 247);
+    background-color: rgb(237, 210, 249);
+}
+
+.main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    
 }
 
 .oppgave1 {
@@ -7,8 +15,9 @@ body {
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    border: solid black 2px;
+    border: solid rgb(255, 255, 255) 2px;
     height: 400px;
     width: 75%;
-
+    background-color: white;
 }
+
