@@ -12,22 +12,33 @@
       <script src="JS/index.js"></script>
 
         <div class="oppgave1">
-            
-                <p>
-                    <label>Antall</label>
-                    <input id="input" type="number" placeholder="Antallet til målenheten...">
-                </p>
-                    
-                <label for="velgMålenhet">Velg en målenhet å konvertere fra:</label>
-                <select id="measure" name="målenheter">
-                    <option value="gallons" id="gallons">Gallons</option>
-                    <option value="ounces" id="ounces">Ounces</option>
-                    <option value="cups" id="cups">Cups</option>
-                    <option value="spiseskjeer" id="spiseskjeer">Spiseskjeer</option>
+                
+            <p>
+                <label for="input">Verdi:</label>
+                <input id="input" type="number" placeholder="Angi verdi...">
+            </p>
+            <p>
+                <label for="from">Fra enhet:</label>
+                <select id="from">
+                    <option value="gallon">Gallon</option>
+                    <option value="ounces">Ounces</option>
+                    <option value="cups">Cups</option>
+                    <option value="spiseskjeer">Spiseskjeer</option>
+                    <option value="liter">Liter</option>
                 </select>
-                <input type="submit" title="Finn målenhet" onclick="velgMålenhet()">
-                    
-                <p><span id="output"></span></p>
+            </p>
+            <p>
+                <label for="to">Til enhet:</label>
+                <select id="to">
+                    <option value="gallon">Gallon</option>
+                    <option value="ounces">Ounces</option>
+                    <option value="cups">Cups</option>
+                    <option value="spiseskjeer">Spiseskjeer</option>
+                    <option value="liter">Liter</option>
+                </select>
+            </p>
+            <button onclick="konvertering()">Konverter</button>
+            <p id="output"></p>
         </div>
             
         <div class="oppgave2">

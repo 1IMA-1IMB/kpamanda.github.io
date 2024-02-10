@@ -6,7 +6,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 500px;
+    height: 600px;
     
 }
 
@@ -15,8 +15,8 @@ body {
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    border: solid rgb(255, 255, 255) 2px;
-    height: 400px;
+    border: solid rgb(233, 233, 233) 3px;
+    height: 500px;
     width: 75%;
     background-color: white;
 }
