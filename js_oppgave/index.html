@@ -11,34 +11,40 @@
 
       <script src="JS/index.js"></script>
 
+      <div class="header">
+        <h1>Konverterer til Liter</h1>
+      </div>
+
         <div class="oppgave1">
+
+            <button id="gangeVerdier">Gange</button>
+            <button id="deleVerdier">Dele</button>
                 
+            <div class="verdier">
             <p>
                 <label for="input">Verdi:</label>
                 <input id="input" type="number" placeholder="Angi verdi...">
             </p>
+            
             <p>
-                <label for="from">Fra enhet:</label>
-                <select id="from">
-                    <option value="gallon">Gallon</option>
-                    <option value="ounces">Ounces</option>
-                    <option value="cups">Cups</option>
-                    <option value="spiseskjeer">Spiseskjeer</option>
-                    <option value="liter">Liter</option>
+                <label>Fra:</label>
+                <select id="measure">
+                    <option value="Gallons">Gallon</option>
+                    <option value="Ounces">Ounces</option>
+                    <option value="Cups">Cups</option>
+                    <option value="Spiseskjeer">Spiseskjeer</option>
                 </select>
             </p>
-            <p>
-                <label for="to">Til enhet:</label>
-                <select id="to">
-                    <option value="gallon">Gallon</option>
-                    <option value="ounces">Ounces</option>
-                    <option value="cups">Cups</option>
-                    <option value="spiseskjeer">Spiseskjeer</option>
-                    <option value="liter">Liter</option>
-                </select>
-            </p>
+            
+            </div>
+            
             <button onclick="konvertering()">Konverter</button>
-            <p id="output"></p>
+
+            <p id="output">Antall liter</p>
+
+        <button onclick="palindrom()">Sjekk palindrom</button>
+        <p id="resultat">Resultat vises her</p>
+
         </div>
             
         <div class="oppgave2">

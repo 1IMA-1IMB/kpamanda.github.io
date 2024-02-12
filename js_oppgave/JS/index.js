@@ -1,88 +1,54 @@
+
+
 function konvertering() {
-    const gallon = 3.78541178;
-    const ounces = 0.035274;
-    const cups = 0.236588;
-    const spiseskjeer = 0.0147868;
-    const liter = 1;
+    // dette er constant variabel, som betyr at value kan ikke endres, eller bli gitt på nytt et annet sted.
+    const Gallons = 3.78541;
+    const Ounces = 0.0295735;
+    const Cups = 0.236588;
+    const Spiseskjeer = 0.0147868;
+    let input = document.getElementById("input").value;
+    // input variablen henter sin verdi fra input type=number i html filen. 
+    const measure = document.getElementById("measure");
+    // measure verdien kommer fra select taggen i html filen. verdien kan da være "gallons", "ounces", osv.
+    
+    if (measure.value == "Gallons"){
 
-    const input = parseFloat(document.getElementById("input").value);
-    const from = document.getElementById("from").value;
-    const to = document.getElementById("to").value;
-    let output;
+        document.getElementById("output").innerHTML = ("det er " + (input * Gallons) + " gallons i " + input + " liter");
+        //getElementById finner elementet i html filen ved hjelp av id navnet, og jeg bestemmer at den blir hentet fra html filen ved å skrive "innterHTML".
+        //og svaret etter = tegnet endres ved at input verdien endres ved hvilket tall som en velger. om noen velger å konvertere fra antallet 3, så er input = 3. 
+    
+    }  else if (measure.value == "Ounces"){
 
-    switch (from) {
-        case "gallon":
-            output = input * gallon;
-            break;
-        case "ounces":
-            output = input * ounces;
-            break;
-        case "cups":
-            output = input * cups;
-            break;
-        case "spiseskjeer":
-            output = input * spiseskjeer;
-            break;
-        case "liter":
-            output = input * liter;
-            break;
-        default:
-            output = input;
+        document.getElementById("output").innerHTML = ("det er " + (input * Ounces) + " ounces i " + input + " liter");
+
+    } else if (measure.value == "Cups"){
+
+        document.getElementById("output").innerHTML = ("det er " + (input * Cups) + " cups i " + input + " liter");
+
+    } else if (measure.value == "Spiseskjeer") {
+
+        document.getElementById("output").innerHTML = ("det er " + (input * Spiseskjeer) + " spiseskjeer i " + input + " liter");
+
     }
-
-    switch (to) {
-        case "gallon":
-            output /= gallon;
-            break;
-        case "ounces":
-            output /= ounces;
-            break;
-        case "cups":
-            output /= cups;
-            break;
-        case "spiseskjeer":
-            output /= spiseskjeer;
-            break;
-        case "liter":
-            output /= liter;
-            break;
-        default:
-            output = input;
-    }
-
-    document.getElementById("output").innerText = "Konvertert verdi: " + output.toFixed(2);
 }
 
-const panildrom = input;
-const endret = palindrom.split("").reverse().join("")
-if (palindrom == endret){
-    console.log("palindrom")
-    //skal endres på en p tag hvis det er riktig
-} else {
-    console.log("ikke palindrom")
-    //skal endres på en p tag hvis det er feil
+function palindrom() {
+    // her er input den samme som input øverst, så tallet du skriver inn i inputen blir tatt imot her og.
+    let input = document.getElementById("input").value.toLowerCase().replace(/[^a-zA-Z0-9]/g, '');
+    //constant variablen reversed gjør dette med input informasjonen: den deler opp tallet med split, så endrer vei slik at den står motsatt vei (liksom 123 blir 321)
+    //og join setter tallet sammen igjen. dette vil da si at nå er tallet motsatt vei fra det det var før.
+    const reversed = input.split("").reverse().join("");
+
+    if (input === reversed) {
+
+        document.getElementById("resultat").innerHTML = "Strengen er et palindrom";
+        //i denne if setningen så er resultat det som skriver i p taggen i html filen.
+        //og hvis input = reversed, vil dette skrives.
+
+    } else {
+
+        document.getElementById("resultat").innerHTML = "Strengen er ikke et palindrom";
+        //men hvis input er annerledes fra reversed, så vil dette skrives. 
+
+    }
 }
-
-
-
-//   function literTilOunces(valueNum) {
-//     document.getElementById("outputLeters").innerHTML=valueNum/33.814;
-//   }
-
-
-//   function maddeforstaarikkjejs() {
-//     const Gallons = 3.78541;
-//     const Ounces = 0.0295735;
-//     const Cups = 0.236588;
-//     const Spiseskjeer = 0.0147868;
-//     const input = document.getElementById("mInput").value;
-//     const measure = document.getElementById("measure");
-//     if(measure.value == "Spiseskjeer"){
-//         document.getElementById("output").innerHTML = input/Spiseskjeer
-//     }else if(measure.value == "Ounces"){
-//         document.getElementById("output").innerHTML = input/Ounces
-//     }else if(measure.value == "Cups"){
-//         document.getElementById("output").innerHTML = input/Cups
-//     }else if(measure.value == "Gallons"){
-//         document.getElementById("output").innerHTML = input/Gallons
-//     }
