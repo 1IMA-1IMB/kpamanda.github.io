@@ -1,5 +1,3 @@
-
-
 function konvertering() {
     // dette er constant variabel, som betyr at value kan ikke endres, eller bli gitt på nytt et annet sted.
     const Gallons = 3.78541;
@@ -31,7 +29,6 @@ function konvertering() {
 
     }
 }
-
 function palindrom() {
     // her er input den samme som input øverst, så tallet du skriver inn i inputen blir tatt imot her og.
     let input = document.getElementById("input").value.toLowerCase().replace(/[^a-zA-Z0-9]/g, '');
