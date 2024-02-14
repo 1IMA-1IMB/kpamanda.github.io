@@ -49,3 +49,5 @@ function palindrom() {
 
     }
 }
+
+//jeg fant ikke ut av hvordan jeg skulle gjør slik at du kunne velge både hvilken målenhet du kona
