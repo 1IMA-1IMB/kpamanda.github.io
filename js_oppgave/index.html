@@ -21,11 +21,10 @@
             <div class="verdier">
             <p>
                 <label for="input">Verdi:</label>
-                <input id="input" type="number" placeholder="Angi verdi...">
+                <input id="input" type="number" placeholder="Angi verdi">
             </p>
             
             <p>
-                <label>Fra:</label>
                 <select id="measure">
                     <option value="Gallons">Gallon</option>
                     <option value="Ounces">Ounces</option>
@@ -35,13 +34,20 @@
             </p>
             
             </div>
+            <div class="buttons">
             
+                <div class="konverter">
             <button onclick="konvertering()">Konverter</button>
 
             <p id="output">Antall liter</p>
+        </div>
 
-        <button onclick="palindrom()">Sjekk palindrom</button>
-        <p id="resultat">Resultat vises her</p>
+        <div class="palindrom">
+            <button onclick="palindrom()">Sjekk palindrom</button>
+            <p id="resultat">Resultat vises her</p>
+        </div>
+    
+            </div>
 
         </div>
             

@@ -11,21 +11,21 @@ function konvertering() {
     
     if (measure.value == "Gallons"){
 
-        document.getElementById("output").innerHTML = ("det er " + (input * Gallons) + " gallons i " + input + " liter");
+        document.getElementById("output").innerHTML = ("det er " + (input * Gallons) + " liter i " + input + " gallons");
         //getElementById finner elementet i html filen ved hjelp av id navnet, og jeg bestemmer at den blir hentet fra html filen ved å skrive "innterHTML".
         //og svaret etter = tegnet endres ved at input verdien endres ved hvilket tall som en velger. om noen velger å konvertere fra antallet 3, så er input = 3. 
     
     }  else if (measure.value == "Ounces"){
 
-        document.getElementById("output").innerHTML = ("det er " + (input * Ounces) + " ounces i " + input + " liter");
+        document.getElementById("output").innerHTML = ("det er " + (input * Ounces) + " liter i " + input + " ounces");
 
     } else if (measure.value == "Cups"){
 
-        document.getElementById("output").innerHTML = ("det er " + (input * Cups) + " cups i " + input + " liter");
+        document.getElementById("output").innerHTML = ("det er " + (input * Cups) + " liter i " + input + " cups");
 
     } else if (measure.value == "Spiseskjeer") {
 
-        document.getElementById("output").innerHTML = ("det er " + (input * Spiseskjeer) + " spiseskjeer i " + input + " liter");
+        document.getElementById("output").innerHTML = ("det er " + (input * Spiseskjeer) + " liter i " + input + " spiseskjeer");
 
     }
 }
@@ -38,13 +38,13 @@ function palindrom() {
 
     if (input === reversed) {
 
-        document.getElementById("resultat").innerHTML = "Strengen er et palindrom";
+        document.getElementById("resultat").innerHTML = "Tallet er et palindrom";
         //i denne if setningen så er resultat det som skriver i p taggen i html filen.
         //og hvis input = reversed, vil dette skrives.
 
     } else {
 
-        document.getElementById("resultat").innerHTML = "Strengen er ikke et palindrom";
+        document.getElementById("resultat").innerHTML = "Tallet er ikke et palindrom";
         //men hvis input er annerledes fra reversed, så vil dette skrives. 
 
     }

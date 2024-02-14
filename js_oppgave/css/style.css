@@ -1,6 +1,11 @@
 body {
-    background-color: rgb(246, 210, 249);
+    background-color: rgb(249, 210, 229);
     font-family: Arial, Helvetica, sans-serif;
+
+}
+
+h1 {
+    text-shadow: 2px 1px rgb(218, 145, 180);
 }
 
 .main-container {
@@ -33,21 +38,91 @@ body {
 }
 
 input[type=number]:focus {
-    border: 2px solid #555;
+    border: 2px solid rgb(218, 145, 180);
   }
 
 .verdier {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
-    width: 75%;
+    width: 80%;
+    box-shadow: 0 1px rgb(218, 145, 180);
 }
 
-button:hover {background-color: #d1d1d1}
+button:hover {
+    background-color: rgb(249, 210, 229);
+}
 
 button:active {
-  background-color: #d1d1d1;
-  box-shadow: 0 1px #666;
+  background-color: rgb(249, 210, 229);
+  box-shadow: 0 1px rgb(218, 145, 180);
   transform: translateY(2px);
+}
+
+input[type=number] {
+    width: 50%;
+    height: 20px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid rgb(218, 145, 180);
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+select {
+    width: 80%;
+    height: 20px;
+    border: 1px solid rgb(218, 145, 180);
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button {
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid rgb(218, 145, 180);
+    border-radius: 4px;
+    box-sizing: border-box;  
+}
+
+.buttons {
+    height: 300px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+@media screen and (min-width: 1000px) {
+    .oppgave1 {
+        width: 50%;
+    }
+    .buttons {
+        flex-direction: row;
+        justify-content: space-around;
+        width: 50%;
+    }
+
+  }
+
+.konverter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    box-shadow: 0 1px rgb(218, 145, 180);
+}
+
+.palindrom {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    box-shadow: 0 1px rgb(218, 145, 180);
 }
