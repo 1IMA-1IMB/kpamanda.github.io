@@ -1,0 +1,68 @@
+body {
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+}
+
+a {
+    color: #785884;
+    text-decoration: none;
+    text-shadow: black;
+}
+
+a:hover {
+    color: black;
+}
+
+.main-container {
+    height: 1000px;
+    width: 100%;
+}
+
+.header {
+    background: #BC95CA;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    border: solid black 2px;
+}
+
+.header a {
+    color: black;
+}
+
+.lenker {
+    background: #E6CCBE;
+    width: 100%;
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.mineNettsider {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 500px;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+
+.boks {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+img {
+    width: 35%;
+    border: solid #BC95CA 2px;
+    box-shadow: 2px 2px white;
+}
