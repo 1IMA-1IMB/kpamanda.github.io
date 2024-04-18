@@ -48,11 +48,3 @@ a:hover {
     color: white;
 }
 
-@media screen and (min-width: 1000px) {
-    img {
-        width: 20%;
-        
-
-    }
-
-  }
